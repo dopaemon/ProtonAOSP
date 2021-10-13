@@ -1107,4 +1107,11 @@
 
   <!-- ProtonAOSP changes -->
   <include name="proton.xml"/>
+
+  <!-- CAF  -->
+  <include name="remove.xml"/>
+  <include name="caf.xml"/>
+
+  <!-- Sweet -->
+  <include name="sweet.xml" />
 </manifest>
