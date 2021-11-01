@@ -1,5 +1,3 @@
-ifeq ($(call my-dir),$(call project-path-for,qcom-media))
-
 QCOM_MEDIA_ROOT := $(call my-dir)
 
 #Compile these for all targets under QCOM_BOARD_PLATFORMS list.
@@ -16,6 +14,4 @@ include $(QCOM_MEDIA_ROOT)/libarbitrarybytes/Android.mk
 ifeq ($(ENABLE_HYP),true)
 include $(QCOM_MEDIA_ROOT)/hypv-intercept/Android.mk
 endif
-endif
-
 endif
