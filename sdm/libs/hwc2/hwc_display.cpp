@@ -2661,7 +2661,7 @@ HWC2::Error HWCDisplay::SubmitDisplayConfig(hwc2_config_t config) {
   }
 
   validated_ = false;
-  DLOGI("Active configuration changed to: %d", config);
+  //DLOGI("Active configuration changed to: %d", config);
 
   return HWC2::Error::None;
 }
