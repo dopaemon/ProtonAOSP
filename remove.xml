@@ -86,4 +86,7 @@
   <remove-project name="platform/hardware/qcom/thermal" />
   <remove-project name="android_vendor_qcom_opensource_interfaces" />
   <remove-project name="android_vendor_qcom_opensource_commonsys-intf_display" />
+  <remove-project name="platform/prebuilts/android-emulator" />
+  <remove-project name="platform/prebuilts/qemu-kernel" />
 </manifest>
+
