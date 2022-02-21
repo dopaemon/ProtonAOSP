@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-vendor/qcom/opensource/commonsys/cryptfs_hw" />
-  <project path="vendor/qcom/opensource/thermal-hal" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-vendor/qcom/opensource/thermal-hal" />
+  <project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-vendor/qcom/opensource/commonsys/cryptfs_hw" clone-depth="1" />
+  <project path="vendor/qcom/opensource/thermal-hal" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-vendor/qcom/opensource/thermal-hal" clone-depth="1" />
   <project path="device/qcom/kernelscripts" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-device/qcom/kernelscripts">
     <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk" />
   </project>
-  <project path="vendor/qcom/opensource/interfaces" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-vendor/qcom/opensource/interfaces" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-vendor/qcom/opensource/data-ipa-cfg-mgr" />
-  <project path="vendor/qcom/opensource/dataservices" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-vendor/qcom/opensource/dataservices" />
-  <project path="vendor/codeaurora/commonsys/telephony" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-vendor/codeaurora/commonsys/telephony" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-vendor/qcom/opensource/commonsys-intf/display" />
-  <project path="vendor/qcom/opensource/power" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-vendor/qcom/opensource/power" />
+  <project path="vendor/qcom/opensource/interfaces" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-vendor/qcom/opensource/interfaces" clone-depth="1" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-vendor/qcom/opensource/data-ipa-cfg-mgr" clone-depth="1" />
+  <project path="vendor/qcom/opensource/dataservices" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-vendor/qcom/opensource/dataservices" clone-depth="1" />
+  <project path="vendor/codeaurora/commonsys/telephony" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-vendor/codeaurora/commonsys/telephony" clone-depth="1" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-vendor/qcom/opensource/commonsys-intf/display" clone-depth="1" />
+  <project path="vendor/qcom/opensource/power" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-vendor/qcom/opensource/power" clone-depth="1" />
 
-  <project path="device/xiaomi/sweet" name="dopaemon/ProtonAOSP" revision="12.1-device/xiaomi/sweet" />
-  <project path="vendor/xiaomi/sweet" name="dopaemon/ProtonAOSP" revision="12.1-vendor/xiaomi/sweet" />
-  <project path="kernel/xiaomi/sweet" name="dopaemon/msm-4.14" revision="sweet" />
-  <project path="device/qcom/sepolicy" name="dopaemon/ProtonAOSP" revision="12.1-device/qcom/sepolicy" />
-  <project path="device/qcom/sepolicy_vndr" name="dopaemon/ProtonAOSP" revision="12.1-device/qcom/sepolicy_vndr" />
-  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="dopaemon/ProtonAOSP" revision="12.1-vendor/qcom/opensource/audio-hal/primary-hal" />
-  <project path="hardware/qcom/media" name="dopaemon/ProtonAOSP" revision="12.1-hardware/qcom/media" />
-  <project path="hardware/qcom/display" name="dopaemon/ProtonAOSP" revision="12.1-hardware/qcom/display" />
+  <project path="device/xiaomi/sweet" name="dopaemon/ProtonAOSP" revision="12.1-device/xiaomi/sweet" clone-depth="1" />
+  <project path="vendor/xiaomi/sweet" name="dopaemon/ProtonAOSP" revision="12.1-vendor/xiaomi/sweet" clone-depth="1" />
+  <project path="kernel/xiaomi/sweet" name="dopaemon/msm-4.14" revision="sweet" clone-depth="1" />
+  <project path="device/qcom/sepolicy" name="dopaemon/ProtonAOSP" revision="12.1-device/qcom/sepolicy" clone-depth="1" />
+  <project path="device/qcom/sepolicy_vndr" name="dopaemon/ProtonAOSP" revision="12.1-device/qcom/sepolicy_vndr" clone-depth="1" />
+  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="dopaemon/ProtonAOSP" revision="12.1-vendor/qcom/opensource/audio-hal/primary-hal" clone-depth="1" />
+  <project path="hardware/qcom/media" name="dopaemon/ProtonAOSP" revision="12.1-hardware/qcom/media" clone-depth="1" />
+  <project path="hardware/qcom/display" name="dopaemon/ProtonAOSP" revision="12.1-hardware/qcom/display" clone-depth="1" />
 </manifest>
