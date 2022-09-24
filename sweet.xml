@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
+  <remove-project name="platform/hardware/qcom/thermal" />
+  <remove-project name="android_vendor_qcom_opensource_interfaces" />
+  <remove-project name="android_vendor_qcom_opensource_commonsys-intf_display" />
+
   <project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-vendor/qcom/opensource/commonsys/cryptfs_hw" clone-depth="1" />
   <project path="vendor/qcom/opensource/thermal-hal" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-vendor/qcom/opensource/thermal-hal" clone-depth="1" />
   <project path="device/qcom/kernelscripts" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-device/qcom/kernelscripts" clone-depth="1" >

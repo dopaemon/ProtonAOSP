@@ -82,10 +82,6 @@
   <remove-project name="platform/hardware/qcom/sm8150/vr" />
   <remove-project name="platform/hardware/qcom/sm8150p/gps" />
   <remove-project name="platform/external/tinycompress" />
-  <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
-  <remove-project name="platform/hardware/qcom/thermal" />
-  <remove-project name="android_vendor_qcom_opensource_interfaces" />
-  <remove-project name="android_vendor_qcom_opensource_commonsys-intf_display" />
   <remove-project name="platform/prebuilts/android-emulator" />
   <remove-project name="platform/prebuilts/qemu-kernel" />
 </manifest>
