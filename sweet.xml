@@ -3,7 +3,7 @@
 
   <project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-vendor/qcom/opensource/commonsys/cryptfs_hw" clone-depth="1" />
   <project path="vendor/qcom/opensource/thermal-hal" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-vendor/qcom/opensource/thermal-hal" clone-depth="1" />
-  <project path="device/qcom/kernelscripts" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-device/qcom/kernelscripts">
+  <project path="device/qcom/kernelscripts" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-device/qcom/kernelscripts" clone-depth="1" >
     <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk" />
   </project>
   <project path="vendor/qcom/opensource/interfaces" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-vendor/qcom/opensource/interfaces" clone-depth="1" />
