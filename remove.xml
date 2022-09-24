@@ -37,7 +37,7 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/linaro/poplar" />
   <remove-project name="device/linaro/poplar-kernel" />
-  <remove-project name="android_vendor_google" />
+  <!-- <remove-project name="android_vendor_google" /> -->
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
   <remove-project name="device/amlogic/yukawa" />
