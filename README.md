@@ -7,8 +7,10 @@ ProtonAOSP is a minimal custom Android ROM focused on UI/UX and performance, wit
 First, make sure you have an [Android build environment](https://source.android.com/setup/build/initializing) and the [repo tool](https://source.android.com/setup/build/downloading) set up. After that, run the following commands:
 
 ```
-repo init -u https://github.com/ProtonAOSP/android_manifest -b sc
-repo sync
+repo init -u https://github.com/dopaemon/ProtonAOSP.git -b 12.1-manifest
+```
+```
+repo sync -j$(nproc --all)
 ```
 
 This is a large download that will take approximately 100 GB of disk space, so plan accordingly.
