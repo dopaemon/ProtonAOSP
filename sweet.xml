@@ -18,12 +18,12 @@
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-vendor/qcom/opensource/commonsys-intf/display" clone-depth="1" />
   <project path="vendor/qcom/opensource/power" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-vendor/qcom/opensource/power" clone-depth="1" />
 
-  <project path="device/xiaomi/sweet" name="dopaemon/ProtonAOSP" revision="12.1-device/xiaomi/sweet" clone-depth="1" />
-  <project path="vendor/xiaomi/sweet" name="dopaemon/ProtonAOSP" revision="12.1-vendor/xiaomi/sweet" clone-depth="1" />
-  <project path="kernel/xiaomi/sweet" name="dopaemon/msm-4.14" revision="sweet" clone-depth="1" />
-  <project path="device/qcom/sepolicy" name="dopaemon/ProtonAOSP" revision="12.1-device/qcom/sepolicy" clone-depth="1" />
-  <project path="device/qcom/sepolicy_vndr" name="dopaemon/ProtonAOSP" revision="12.1-device/qcom/sepolicy_vndr" clone-depth="1" />
-  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="dopaemon/ProtonAOSP" revision="12.1-vendor/qcom/opensource/audio-hal/primary-hal" clone-depth="1" />
-  <project path="hardware/qcom/media" name="dopaemon/ProtonAOSP" revision="12.1-hardware/qcom/media" clone-depth="1" />
-  <project path="hardware/qcom/display" name="dopaemon/ProtonAOSP" revision="12.1-hardware/qcom/display" clone-depth="1" />
+  <project path="device/xiaomi/sweet" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-device/xiaomi/sweet" clone-depth="1" />
+  <project path="vendor/xiaomi/sweet" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-vendor/xiaomi/sweet" clone-depth="1" />
+  <project path="kernel/xiaomi/sweet" name="dopaemon/msm-4.14" remote="github" revision="sweet" clone-depth="1" />
+  <project path="device/qcom/sepolicy" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-device/qcom/sepolicy" clone-depth="1" />
+  <project path="device/qcom/sepolicy_vndr" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-device/qcom/sepolicy_vndr" clone-depth="1" />
+  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="dopaemon/ProtonAOSP" remote="github" revision="12.1-vendor/qcom/opensource/audio-hal/primary-hal" clone-depth="1" />
+  <project path="hardware/qcom/media" name="dopaemon/ProtonAOSP" revision="12.1-hardware/qcom/media" remote="github" clone-depth="1" />
+  <project path="hardware/qcom/display" name="dopaemon/ProtonAOSP" revision="12.1-hardware/qcom/display" remote="github" clone-depth="1" />
 </manifest>
