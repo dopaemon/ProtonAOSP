@@ -12,6 +12,19 @@ repo init -u https://github.com/dopaemon/ProtonAOSP.git -b 12.1-manifest
 ```
 repo sync -j$(nproc --all)
 ```
+```
+source build/envsetup.sh
+```
+```
+lunch sweet-userdebug
+```
+```
+# if You want Google apps
+export WITH_GMS=true
+```
+```
+m otapackage -j$(nproc --all)
+```
 
 This is a large download that will take approximately 100 GB of disk space, so plan accordingly.
 
