@@ -165,9 +165,6 @@ PRODUCT_PACKAGES += \
     qti_telephony_hidl_wrapper.xml \
     qti-telephony-utils \
     qti_telephony_utils.xml \
-    telephony-ext \
-
-PRODUCT_BOOT_JARS += \
     telephony-ext
 
 # FM
@@ -177,7 +174,8 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/nxp
 
 # Perf
 PRODUCT_PACKAGES += \
@@ -212,6 +210,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     CutoutRingServiceSweet
+
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
 
 # Display
 PRODUCT_PACKAGES += \
